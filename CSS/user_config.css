@@ -1,0 +1,151 @@
+/* Estilos generales */
+main {
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    font-family: "ABC Ginto Normal","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #36393F;
+}
+
+.box {
+    background-color: #1e1f22;
+    padding: 23px;
+}
+
+/* Mi Cuenta */
+.user {
+    font-size: 26px;
+    color: #f2f3f5;
+}
+
+.closeButton {
+    background-color: #777;
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;  
+}
+
+.my_user {
+    display: flex;
+    align-items: center;
+}
+
+.userimg {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.imguser img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #777;
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    background-color: #5865f2;
+    color: #f2f3f5;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 16px;
+    cursor: pointer;
+}
+
+.user-data {
+    flex: 2;
+}
+
+.username {
+    color: #f2f3f5;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.userid {
+    font-size: 14px;
+    color: #7a7979;
+}
+
+/* Edición del usuario */
+.useredit {
+    padding: 16px;
+    margin-top: 20px;
+    background-color: #36393F;
+}
+
+.username, .userfirstname, .userlastname, .usermail {
+    display: flex;    
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.h3 {
+    font-size: 12px;
+    color: #b5bac1;
+    font-weight: bold;
+}
+
+a {
+    font-size: 16px;
+    color: #f2f3f5;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.button_edit {
+    flex: 1;
+    text-align: right;
+}
+
+.edit {
+    background-color: #4e5058;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Línea separadora */
+.line {
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cambiar contraseña */
+.changepass {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p1 {
+    font-size: 22px;
+    color: #b5bac1;
+    font-weight: bold;
+}
+
+.change_password {
+    background-color: #5865f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
