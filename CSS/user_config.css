@@ -40,6 +40,10 @@ body {
     cursor: pointer;
 }
 
+.closeButton:hover {
+    opacity: 40%;
+}
+
 .my_user {
     display: flex;
     align-items: center;
@@ -70,6 +74,11 @@ body {
     border-radius: 3px;
     padding: 2px 16px;
     cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #3746e9;
+    color: #ebecec;
 }
 
 .user-data {
@@ -136,6 +145,10 @@ a {
     cursor: pointer;
 }
 
+.edit:hover {
+    filter: brightness(1.2);
+}
+
 /* Línea separadora */
 .line {
     height: 1px;
@@ -165,4 +178,145 @@ a {
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+.change_password:hover {
+    background-color: #3746e9;
+    color: #ebecec;
+}
+
+.formPss {
+    display: none; /* Oculto */
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 250px;
+    background-color: #4e5058;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.formPss input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #202225;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    caret-color: #fff;
+    outline: none;
+}
+
+.newPassword {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Cerrar Sesion */
+.exit-session {
+    padding: 15px;
+}
+
+.closesession {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closesession button {
+    background-color: #4e5058;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.closesession button:hover {
+    filter: brightness(1.2);
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b5bac1;
+    margin-right: 25px;
+}
+
+button img {
+    width: 17px;
+    height: 17px;
+}
+
+/* Formularios ocultos */
+.form_userimg, .w2, .w3, .w4, .w5{
+    display: none; /* Oculto */
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: #4e5058;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.w2, .w3, .w4, .w5 {
+    height: 130px;
+}
+
+.form_userimg input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #202225;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    caret-color: #fff;
+    outline: none;
+}
+
+.w1, .w2, .w3, .w4, .w5 {
+    padding: 30px;
+    text-align: center;
+}
+
+.b1, .b2, .b3, .b4, .b5 {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.okbtn, .cancelbtn{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.okbtn {
+    background-color: #5865f2;
+    margin-right: 20px;
+}
+
+.cancelbtn {
+    background-color: #6f7888;
+    color: #1f1c1c;
+}
+
+.okbtn:hover, .cancelbtn:hover {
+    filter: brightness(1.2);
+}
+
+.form_edit input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #202225;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    caret-color: #fff;
+    outline: none;
 }
